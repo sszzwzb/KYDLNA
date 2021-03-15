@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-KYDLNA/Pods-KYDLNA-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/MRDLNA/MRDLNA.framework
+${BUILT_PRODUCTS_DIR}/SDAutoLayout/SDAutoLayout.framework

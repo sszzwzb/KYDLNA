@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  KYDLNA
+//
+//  Created by kaiyi on 2021/3/15.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "SDAutoLayout.h"
+
+#define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+#define Color333                    RGBCOLOR(0x33,0x33,0x33)
+#define Color999                    RGBCOLOR(0x99,0x99,0x99)
+#define Color_groupTable_white      RGBCOLOR(0xfe,0xfe,0xfe) //白色，浅色
+#define Color_groupTableBG          RGBCOLOR(0xf5,0xf5,0xf5) //灰色，tableView bg  groupTableViewBackgroundColor
+#define Color_orange                RGBCOLOR(0xF5,0xA8,0x48) //橘黄色
+
+
+#define CPFont(value)       [UIFont fontWithName:@"PingFang-SC-Regular" size:value] ? [UIFont fontWithName:@"PingFang-SC-Regular" size:value] : [UIFont systemFontOfSize:value]
+
+
+#define iPhoneX ({BOOL is_iPhoneX = NO;if (@available(iOS 11.0, *)) {is_iPhoneX = ([[[UIApplication sharedApplication] delegate] window].safeAreaInsets.bottom > 0.0 ? YES :NO);}is_iPhoneX;})
+#define  HCTopBarHeight             (iPhoneX ? 88 : 64)
+
+
+#define kScreenHeight MAX([[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)
+#define kScreenWidth MIN([[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height)
+
+#define kScale(value)       (value)*(kScreenWidth / 375.0)
+
+
+
+
+
+#endif /* PrefixHeader_pch */

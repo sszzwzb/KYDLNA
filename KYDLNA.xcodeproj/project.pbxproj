@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C3A0C6F796634E660EF9A7 /* Pods_KYDLNA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4ECD50B98F0EB4149103E2 /* Pods_KYDLNA.framework */; };
+		A642BB4925FF3CC900915A31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB4825FF3CC900915A31 /* AppDelegate.m */; };
+		A642BB4F25FF3CC900915A31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB4E25FF3CC900915A31 /* ViewController.m */; };
+		A642BB5225FF3CC900915A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A642BB5025FF3CC900915A31 /* Main.storyboard */; };
+		A642BB5425FF3CCD00915A31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A642BB5325FF3CCD00915A31 /* Assets.xcassets */; };
+		A642BB5725FF3CCD00915A31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A642BB5525FF3CCD00915A31 /* LaunchScreen.storyboard */; };
+		A642BB5A25FF3CCD00915A31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB5925FF3CCD00915A31 /* main.m */; };
+		A642BB6425FF3CCE00915A31 /* KYDLNATests.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB6325FF3CCE00915A31 /* KYDLNATests.m */; };
+		A642BB6F25FF3CCE00915A31 /* KYDLNAUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB6E25FF3CCE00915A31 /* KYDLNAUITests.m */; };
+		A642BB9125FF3EB800915A31 /* KYPlayerForScreenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB8C25FF3EB700915A31 /* KYPlayerForScreenTableViewCell.m */; };
+		A642BB9225FF3EB800915A31 /* KYPlayerForScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB8D25FF3EB700915A31 /* KYPlayerForScreenViewController.m */; };
+		A642BB9325FF3EB800915A31 /* KYPlayerForScreenTableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = A642BB8F25FF3EB700915A31 /* KYPlayerForScreenTableViewHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A642BB6025FF3CCE00915A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642BB3C25FF3CC900915A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642BB4325FF3CC900915A31;
+			remoteInfo = KYDLNA;
+		};
+		A642BB6B25FF3CCE00915A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A642BB3C25FF3CC900915A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A642BB4325FF3CC900915A31;
+			remoteInfo = KYDLNA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49142F85D1CEE6E3DA2D50E4 /* Pods-KYDLNA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDLNA.release.xcconfig"; path = "Target Support Files/Pods-KYDLNA/Pods-KYDLNA.release.xcconfig"; sourceTree = "<group>"; };
+		A642BB4425FF3CC900915A31 /* KYDLNA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYDLNA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A642BB4725FF3CC900915A31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A642BB4825FF3CC900915A31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A642BB4D25FF3CC900915A31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A642BB4E25FF3CC900915A31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A642BB5125FF3CC900915A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A642BB5325FF3CCD00915A31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A642BB5625FF3CCD00915A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A642BB5825FF3CCD00915A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A642BB5925FF3CCD00915A31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A642BB5F25FF3CCE00915A31 /* KYDLNATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDLNATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A642BB6325FF3CCE00915A31 /* KYDLNATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYDLNATests.m; sourceTree = "<group>"; };
+		A642BB6525FF3CCE00915A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A642BB6A25FF3CCE00915A31 /* KYDLNAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYDLNAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A642BB6E25FF3CCE00915A31 /* KYDLNAUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYDLNAUITests.m; sourceTree = "<group>"; };
+		A642BB7025FF3CCE00915A31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A642BB8A25FF3EB700915A31 /* KYPlayerForScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlayerForScreenViewController.h; sourceTree = "<group>"; };
+		A642BB8B25FF3EB700915A31 /* KYPlayerForScreenTableViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlayerForScreenTableViewHeaderView.h; sourceTree = "<group>"; };
+		A642BB8C25FF3EB700915A31 /* KYPlayerForScreenTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlayerForScreenTableViewCell.m; sourceTree = "<group>"; };
+		A642BB8D25FF3EB700915A31 /* KYPlayerForScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlayerForScreenViewController.m; sourceTree = "<group>"; };
+		A642BB8E25FF3EB700915A31 /* KYPlayerForScreenTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYPlayerForScreenTableViewCell.h; sourceTree = "<group>"; };
+		A642BB8F25FF3EB700915A31 /* KYPlayerForScreenTableViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYPlayerForScreenTableViewHeaderView.m; sourceTree = "<group>"; };
+		A642BB9025FF3EB700915A31 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DA4ECD50B98F0EB4149103E2 /* Pods_KYDLNA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYDLNA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF3163A72EA81CAD32380AF /* Pods-KYDLNA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYDLNA.debug.xcconfig"; path = "Target Support Files/Pods-KYDLNA/Pods-KYDLNA.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A642BB4125FF3CC900915A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C3A0C6F796634E660EF9A7 /* Pods_KYDLNA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642BB5C25FF3CCE00915A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642BB6725FF3CCE00915A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F245E75C1B0C997DB2B1170 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF3163A72EA81CAD32380AF /* Pods-KYDLNA.debug.xcconfig */,
+				49142F85D1CEE6E3DA2D50E4 /* Pods-KYDLNA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A642BB3B25FF3CC900915A31 = {
+			isa = PBXGroup;
+			children = (
+				A642BB4625FF3CC900915A31 /* KYDLNA */,
+				A642BB6225FF3CCE00915A31 /* KYDLNATests */,
+				A642BB6D25FF3CCE00915A31 /* KYDLNAUITests */,
+				A642BB4525FF3CC900915A31 /* Products */,
+				2F245E75C1B0C997DB2B1170 /* Pods */,
+				BA4EC18DBE06AEC3E8722DD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A642BB4525FF3CC900915A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A642BB4425FF3CC900915A31 /* KYDLNA.app */,
+				A642BB5F25FF3CCE00915A31 /* KYDLNATests.xctest */,
+				A642BB6A25FF3CCE00915A31 /* KYDLNAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A642BB4625FF3CC900915A31 /* KYDLNA */ = {
+			isa = PBXGroup;
+			children = (
+				A642BB4725FF3CC900915A31 /* AppDelegate.h */,
+				A642BB4825FF3CC900915A31 /* AppDelegate.m */,
+				A642BB4D25FF3CC900915A31 /* ViewController.h */,
+				A642BB4E25FF3CC900915A31 /* ViewController.m */,
+				A642BB8925FF3EB700915A31 /* ForScreen */,
+				A642BB9025FF3EB700915A31 /* PrefixHeader.pch */,
+				A642BB5025FF3CC900915A31 /* Main.storyboard */,
+				A642BB5325FF3CCD00915A31 /* Assets.xcassets */,
+				A642BB5525FF3CCD00915A31 /* LaunchScreen.storyboard */,
+				A642BB5825FF3CCD00915A31 /* Info.plist */,
+				A642BB5925FF3CCD00915A31 /* main.m */,
+			);
+			path = KYDLNA;
+			sourceTree = "<group>";
+		};
+		A642BB6225FF3CCE00915A31 /* KYDLNATests */ = {
+			isa = PBXGroup;
+			children = (
+				A642BB6325FF3CCE00915A31 /* KYDLNATests.m */,
+				A642BB6525FF3CCE00915A31 /* Info.plist */,
+			);
+			path = KYDLNATests;
+			sourceTree = "<group>";
+		};
+		A642BB6D25FF3CCE00915A31 /* KYDLNAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A642BB6E25FF3CCE00915A31 /* KYDLNAUITests.m */,
+				A642BB7025FF3CCE00915A31 /* Info.plist */,
+			);
+			path = KYDLNAUITests;
+			sourceTree = "<group>";
+		};
+		A642BB8925FF3EB700915A31 /* ForScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A642BB8A25FF3EB700915A31 /* KYPlayerForScreenViewController.h */,
+				A642BB8D25FF3EB700915A31 /* KYPlayerForScreenViewController.m */,
+				A642BB8E25FF3EB700915A31 /* KYPlayerForScreenTableViewCell.h */,
+				A642BB8C25FF3EB700915A31 /* KYPlayerForScreenTableViewCell.m */,
+				A642BB8B25FF3EB700915A31 /* KYPlayerForScreenTableViewHeaderView.h */,
+				A642BB8F25FF3EB700915A31 /* KYPlayerForScreenTableViewHeaderView.m */,
+			);
+			path = ForScreen;
+			sourceTree = "<group>";
+		};
+		BA4EC18DBE06AEC3E8722DD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA4ECD50B98F0EB4149103E2 /* Pods_KYDLNA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A642BB4325FF3CC900915A31 /* KYDLNA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A642BB7325FF3CCE00915A31 /* Build configuration list for PBXNativeTarget "KYDLNA" */;
+			buildPhases = (
+				EA9DF4799AF85AE0C0857A82 /* [CP] Check Pods Manifest.lock */,
+				A642BB4025FF3CC900915A31 /* Sources */,
+				A642BB4125FF3CC900915A31 /* Frameworks */,
+				A642BB4225FF3CC900915A31 /* Resources */,
+				779260545729CF71146ED40D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDLNA;
+			productName = KYDLNA;
+			productReference = A642BB4425FF3CC900915A31 /* KYDLNA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A642BB5E25FF3CCE00915A31 /* KYDLNATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A642BB7625FF3CCE00915A31 /* Build configuration list for PBXNativeTarget "KYDLNATests" */;
+			buildPhases = (
+				A642BB5B25FF3CCE00915A31 /* Sources */,
+				A642BB5C25FF3CCE00915A31 /* Frameworks */,
+				A642BB5D25FF3CCE00915A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A642BB6125FF3CCE00915A31 /* PBXTargetDependency */,
+			);
+			name = KYDLNATests;
+			productName = KYDLNATests;
+			productReference = A642BB5F25FF3CCE00915A31 /* KYDLNATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A642BB6925FF3CCE00915A31 /* KYDLNAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A642BB7925FF3CCE00915A31 /* Build configuration list for PBXNativeTarget "KYDLNAUITests" */;
+			buildPhases = (
+				A642BB6625FF3CCE00915A31 /* Sources */,
+				A642BB6725FF3CCE00915A31 /* Frameworks */,
+				A642BB6825FF3CCE00915A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A642BB6C25FF3CCE00915A31 /* PBXTargetDependency */,
+			);
+			name = KYDLNAUITests;
+			productName = KYDLNAUITests;
+			productReference = A642BB6A25FF3CCE00915A31 /* KYDLNAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A642BB3C25FF3CC900915A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					A642BB4325FF3CC900915A31 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					A642BB5E25FF3CCE00915A31 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A642BB4325FF3CC900915A31;
+					};
+					A642BB6925FF3CCE00915A31 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = A642BB4325FF3CC900915A31;
+					};
+				};
+			};
+			buildConfigurationList = A642BB3F25FF3CC900915A31 /* Build configuration list for PBXProject "KYDLNA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A642BB3B25FF3CC900915A31;
+			productRefGroup = A642BB4525FF3CC900915A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A642BB4325FF3CC900915A31 /* KYDLNA */,
+				A642BB5E25FF3CCE00915A31 /* KYDLNATests */,
+				A642BB6925FF3CCE00915A31 /* KYDLNAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A642BB4225FF3CC900915A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A642BB5725FF3CCD00915A31 /* LaunchScreen.storyboard in Resources */,
+				A642BB5425FF3CCD00915A31 /* Assets.xcassets in Resources */,
+				A642BB5225FF3CC900915A31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642BB5D25FF3CCE00915A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642BB6825FF3CCE00915A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		779260545729CF71146ED40D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KYDLNA/Pods-KYDLNA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KYDLNA/Pods-KYDLNA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KYDLNA/Pods-KYDLNA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA9DF4799AF85AE0C0857A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYDLNA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A642BB4025FF3CC900915A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A642BB9125FF3EB800915A31 /* KYPlayerForScreenTableViewCell.m in Sources */,
+				A642BB4F25FF3CC900915A31 /* ViewController.m in Sources */,
+				A642BB9325FF3EB800915A31 /* KYPlayerForScreenTableViewHeaderView.m in Sources */,
+				A642BB4925FF3CC900915A31 /* AppDelegate.m in Sources */,
+				A642BB9225FF3EB800915A31 /* KYPlayerForScreenViewController.m in Sources */,
+				A642BB5A25FF3CCD00915A31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642BB5B25FF3CCE00915A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A642BB6425FF3CCE00915A31 /* KYDLNATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A642BB6625FF3CCE00915A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A642BB6F25FF3CCE00915A31 /* KYDLNAUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A642BB6125FF3CCE00915A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A642BB4325FF3CC900915A31 /* KYDLNA */;
+			targetProxy = A642BB6025FF3CCE00915A31 /* PBXContainerItemProxy */;
+		};
+		A642BB6C25FF3CCE00915A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A642BB4325FF3CC900915A31 /* KYDLNA */;
+			targetProxy = A642BB6B25FF3CCE00915A31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A642BB5025FF3CC900915A31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A642BB5125FF3CC900915A31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A642BB5525FF3CCD00915A31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A642BB5625FF3CCD00915A31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A642BB7125FF3CCE00915A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A642BB7225FF3CCE00915A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A642BB7425FF3CCE00915A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF3163A72EA81CAD32380AF /* Pods-KYDLNA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KYDLNA/PrefixHeader.pch";
+				INFOPLIST_FILE = KYDLNA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky1234.KYDLNA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A642BB7525FF3CCE00915A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49142F85D1CEE6E3DA2D50E4 /* Pods-KYDLNA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KYDLNA/PrefixHeader.pch";
+				INFOPLIST_FILE = KYDLNA/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky1234.KYDLNA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A642BB7725FF3CCE00915A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDLNATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky1234.KYDLNATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDLNA.app/KYDLNA";
+			};
+			name = Debug;
+		};
+		A642BB7825FF3CCE00915A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDLNATests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky1234.KYDLNATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYDLNA.app/KYDLNA";
+			};
+			name = Release;
+		};
+		A642BB7A25FF3CCE00915A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDLNAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky1234.KYDLNAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYDLNA;
+			};
+			name = Debug;
+		};
+		A642BB7B25FF3CCE00915A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KYDLNAUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ky1234.KYDLNAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYDLNA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A642BB3F25FF3CC900915A31 /* Build configuration list for PBXProject "KYDLNA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A642BB7125FF3CCE00915A31 /* Debug */,
+				A642BB7225FF3CCE00915A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A642BB7325FF3CCE00915A31 /* Build configuration list for PBXNativeTarget "KYDLNA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A642BB7425FF3CCE00915A31 /* Debug */,
+				A642BB7525FF3CCE00915A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A642BB7625FF3CCE00915A31 /* Build configuration list for PBXNativeTarget "KYDLNATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A642BB7725FF3CCE00915A31 /* Debug */,
+				A642BB7825FF3CCE00915A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A642BB7925FF3CCE00915A31 /* Build configuration list for PBXNativeTarget "KYDLNAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A642BB7A25FF3CCE00915A31 /* Debug */,
+				A642BB7B25FF3CCE00915A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A642BB3C25FF3CC900915A31 /* Project object */;
+}
